@@ -1,0 +1,27 @@
+h4 {
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+}
+
+h4:before {
+    content: "";
+    display: block;
+    width: 43%;
+    height: 3px;
+    background: #fff;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+h4:after {
+    content: "";
+    display: block;
+    width: 43%;
+    height: 3px;
+    background: #fff;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
